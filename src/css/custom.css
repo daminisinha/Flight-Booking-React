@@ -1,0 +1,44 @@
+
+
+.body{
+  font-family: 'Roboto', sans-serif;
+}
+.input-style{
+  border:none;
+  box-shadow:none;
+  font-size:14px;
+
+
+}
+.no-border{
+  outline:none;
+  margin:2%;
+  padding:1%;
+
+
+}
+.input-style:focus{
+  outline:none;
+
+}
+.modal-body-style{
+ margin:0 auto;
+ width:70%;
+}
+
+.modal-content-style{
+  width:400px;
+  margin:auto;
+  font-size:14px;
+}
+
+
+.btn-lnk-style{
+  background-color: transparent;
+  margin:0 auto;
+  width:70%;
+}
+
+.btn-lnk-style:hover{
+  background-color: #cdd2d8;
+}
