@@ -9,9 +9,11 @@ doSlideshow();
 function doSlideshow(){
 if(nextimage>=images.length){nextimage=0;}
 $('.containerStyle')
-.css('background-image','url("'+images[nextimage++]+'")')
-.fadeIn(1000,function(){
-   setTimeout(doSlideshow,4000);
+.css({'background-image':'url("'+images[nextimage++]+'")',
+'transition': 'background-image 5s ease-in-out'
+})
+.fadeTo(1000,0.6,function(){
+   setTimeout(doSlideshow,6000);
 });
 }
 

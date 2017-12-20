@@ -7,9 +7,19 @@
 .headerDiv{
   background-color: #111;
   color:rgb(228, 145, 100);
+
+}
+.headerDiv >ul >li > a>i{
+  padding-right:3px;
+}
+.headerDiv >ul >li > a{
+  color:white;
 }
 .toggleClass{
   display: none;
+}
+.toggleClass >nav> #navbarNav > ul >li > a>i{
+  padding-right:5px;
 }
 .imgStyle{
   z-index: -99999;
@@ -28,15 +38,16 @@
  opacity: 0.4;
  background-size:100% 100%;
  background-repeat: no-repeat;
+ 
 
 }
 
 .formStyle{
-
+  
   position: relative; 
   margin-top:20px;
-  top:-570px;
-  margin-left:50px;
+  top:-500px;
+  margin-left:25%;
   border: 1px solid white;
   width:47%;
   background-color: rgba(15, 11, 11, 0.66);
@@ -45,7 +56,7 @@
 
 }
 .navStyle{
-  padding:2px;
+  padding:2px;text-align: center;
   width:20%;
   
 }
@@ -83,7 +94,7 @@
 width:50%;
 }
 .promoStyle{
-  background-color: #000000;
+  background-color:#a7d8e8;
   color:#ccc;
   padding-top:8px;
   height:auto;
@@ -92,7 +103,9 @@ width:50%;
   width:50%;
   margin:10px;
   border-radius:15px;
-  background-color: #007bff;
+  background-color: #3389a8;
+  border:1px solid white;
+  color:white;
 }
 .alignSearchButton{
 text-align: center;
@@ -107,11 +120,45 @@ text-align: center;
   padding-left:5%;
  
 }
-
+.dropdown-menu{
+  position: relative;
+  width:90%;
+  margin-left:-80%;
+  background-color:#dfdfdf;
+  color:#3389a8;
+  margin-top:10px;
+  
+}
+.modal-dialog{
+  top:40%;
+  width:50%;
+}
+.modal-header{
+  background-color:#dfdfdf;
+  color:#3389a8;
+  display: flex;
+  flex-direction: row;
+  
+}
+.modal-body>ul>li{
+  background-color:rgb(207, 220, 245);;
+  color:black;
+  display: flex;
+  flex-direction: row;
+  padding :4px;
+  
+}
+modal-body>ul>li>div>.input-group{
+  width:20%;
+}
+.modal-body > ul {
+  list-style-type: none;
+}
 
 @media (max-width: 800px)  {
   .formStyle{
     width:60%;
+    margin-left:20%;
   }
   .navStyle{
     padding:2px;
@@ -143,11 +190,13 @@ text-align: center;
     position: fixed;
     z-index: 999;
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px; 
    
   }
-  
+  .dropdown-menu{
+    width:93%;
+    margin-left:-76%;
+  }
   
   .imgStyle{
     height:80px;
@@ -163,7 +212,7 @@ text-align: center;
 }
 
 
-  
+
   
   
   

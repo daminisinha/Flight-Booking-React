@@ -14,17 +14,21 @@ export  default class NavHeader extends React.Component{
               {/* <a class="navbar-brand" href="#">Navbar</a> */}
              <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
-                  <li className="nav-item active">
-                    <a className="nav-link" href="#">Check In</a>
-                  </li>n'''
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Customer Support</a>
+                    <a className="nav-link" href="#">
+                    <i className="fa fa-check-circle-o" aria-hidden="true"></i>Check In</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">INR</a>
+                    <a className="nav-link" href="#">
+                    <i className="fa fa-user-circle" aria-hidden="true"></i>Customer Support</a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#">Login/Signup</a>
+                    <a className="nav-link" href="#">
+                    <i className="fa fa-money" aria-hidden="true"></i>INR</a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                    <i className="fa fa-user-secret" aria-hidden="true"></i>Login/Signup</a>
                   </li>
                 </ul>
               </div>
@@ -35,16 +39,21 @@ export  default class NavHeader extends React.Component{
           <div className="headerDiv">
             <ul className="nav justify-content-end">
                  <li className="nav-item">
-                    <a className="nav-link" href="#">Check In</a>
+                    <a className="nav-link" href="#">
+                    <i className="fa fa-check-circle-o" aria-hidden="true"></i>
+                     Check In</a>
                 </li>
                   <li className="nav-item">
-                   <a className="nav-link" href="#">Customer Support</a>
+                   <a className="nav-link" href="#">
+                    <i className="fa fa-user-circle" aria-hidden="true"></i> Customer Support</a>
               </li>
                  <li className="nav-item">
-                   <a className="nav-link " href="#">INR</a>
+                   <a className="nav-link " href="#">
+                   <i className="fa fa-money" aria-hidden="true"></i >INR</a>
                 </li>
                   <li className="nav-item">
-                      <a className="nav-link " href="#">Login/Signup</a>
+                      <a className="nav-link " href="#">
+                      <i className="fa fa-user-secret" aria-hidden="true"></i> Login/Signup</a>
                     </li>
                 </ul>
          
