@@ -1,9 +1,12 @@
 {
   "name": "react-demo-project",
   "version": "1.0.0",
+  "homepage":"https://daminisinha.github.io/Flight-Booking-React/",
   "description": "A simple demo with React",
   "main": "index.js",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server"
   },
@@ -21,7 +24,8 @@
     "react-tap-event-plugin": "^2.0.1",
     "sass-loader": "^6.0.6",
     "webpack": "^2.2.1",
-    "webpack-dev-server": "2.3.0"
+    "webpack-dev-server": "2.3.0",
+    "gh-pages":"^1.0.0"
   },
   "dependencies": {
     "axios": "^0.16.2",
